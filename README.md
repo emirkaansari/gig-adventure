@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/emirkaansari/gig-adventure">
-    <img src="Logo.png" alt="Logo">
+    <img src="Logo.png" alt="Logo" width: 320 height: 320>
   </a>
 
 <h3 align="center"> Gig Adventure: Your Path to Earning and Community Connection</h3>
