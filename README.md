@@ -103,8 +103,6 @@ Join Gig Adventure today, and discover a world where earning, connection, and co
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,14 +111,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Vuetify][Vuetify]][Vuetify-url]
+* [![Spring][Spring]][Spring-url]
+* [![JWT][JWT]][JWT-url]
+* [![Postgres][Postgres]][Postgres-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,10 +169,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Integrating OAuth 2.0 with the current authentication setup.
+- [ ] Implementing two-step verification.
+- [ ] Implementing "forgot password" feature.
+- [ ] Allowing the users to have real-time chat with WebSocket.
+- [ ] Implementing a push notification mechanism.
 
 See the [open issues](https://github.com/emirkaansari/gig-adventure/issues) for a full list of proposed features (and known issues).
 
@@ -188,7 +184,7 @@ See the [open issues](https://github.com/emirkaansari/gig-adventure/issues) for 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -215,7 +211,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Emir Kaan Sari - emirkaansari@gmail.com
 
 Project Link: [https://github.com/emirkaansari/gig-adventure](https://github.com/emirkaansari/gig-adventure)
 
@@ -224,13 +220,13 @@ Project Link: [https://github.com/emirkaansari/gig-adventure](https://github.com
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments 
 
 * []()
 * []()
 * []()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -247,7 +243,7 @@ Project Link: [https://github.com/emirkaansari/gig-adventure](https://github.com
 [license-shield]: https://img.shields.io/github/license/emirkaansari/gig-adventure.svg?style=for-the-badge
 [license-url]: https://github.com/emirkaansari/gig-adventure/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/emirkaansari
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
@@ -255,6 +251,14 @@ Project Link: [https://github.com/emirkaansari/gig-adventure](https://github.com
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
+[Spring]: https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white
+[Spring-url]: https://spring.io
+[Vuetify]: https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white
+[Vuetify-url]: https://vuetifyjs.com
+[Postgres]: https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
+[Postgres-url]: https://www.postgresql.org
+[JWT]: https://img.shields.io/badge/JWT-000000?style=for-the-badge
+[JWT-url]: https://jwt.io
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
