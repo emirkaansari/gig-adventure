@@ -103,7 +103,6 @@ Join Gig Adventure today, and discover a world where earning, connection, and co
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +136,6 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
    git clone https://github.com/emirkaansari/gig-adventure.git
@@ -146,19 +144,30 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Run 
+   ```sh
+   npm run dev
    ```
+4. Application should be running on http://localhost:3000
 
+5. Pull the latest version of postgres and create a database named postgres.
+   
+6. Database should be running on http://localhost:5432
+   
+7. Database username: postgres, password:password
+  
+8. Install JDK17 locally or in IDE
+9.  Build 
+   ```sh
+   gradle clean build
+   ```
+10. Backend should run on http://localhost:8080
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
