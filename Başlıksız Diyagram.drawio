@@ -1,14 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T11:13:27.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tfiYMGRlklNsDis2QMS-" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T11:30:24.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BhqD8ujbEikvMpaZOTtQ" version="22.1.15" type="github">
   <diagram name="Sayfa -1" id="_AeeZ23zf5v2q7sdFCpP">
     <mxGraphModel dx="954" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W5344skES5TuR8sHSeHH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-2" target="W5344skES5TuR8sHSeHH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W5344skES5TuR8sHSeHH-2" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
-          <mxGeometry x="30" y="110" width="60" height="60" as="geometry" />
+          <mxGeometry x="23.7" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-4" target="W5344skES5TuR8sHSeHH-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W5344skES5TuR8sHSeHH-4" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.arduino;fillColor=#36868D;strokeColor=none" vertex="1" parent="1">
-          <mxGeometry x="30" y="380" width="67.4" height="32" as="geometry" />
+          <mxGeometry x="16.3" y="364" width="67.4" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-10" target="W5344skES5TuR8sHSeHH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-10" target="W5344skES5TuR8sHSeHH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-10" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-11" target="W5344skES5TuR8sHSeHH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-11" target="W5344skES5TuR8sHSeHH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-11" value="Messaging Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-12" target="W5344skES5TuR8sHSeHH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-12" target="W5344skES5TuR8sHSeHH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-12" value="Arduino Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-13" target="W5344skES5TuR8sHSeHH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-13" target="W5344skES5TuR8sHSeHH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-13" value="Client Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="336" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="270" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="147" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-16" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="20" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-20" value="Service&amp;nbsp;Registry&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-12" target="W5344skES5TuR8sHSeHH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-26" value="Async Messaging&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="60" width="60" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-11" target="W5344skES5TuR8sHSeHH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-13" target="W5344skES5TuR8sHSeHH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-10" target="W5344skES5TuR8sHSeHH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5344skES5TuR8sHSeHH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.35;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5344skES5TuR8sHSeHH-10" target="W5344skES5TuR8sHSeHH-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
